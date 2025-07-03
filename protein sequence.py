@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 
-# DNA analysis functions
 def valid_dna(seq):
     return all(base in "ATGC" for base in seq.upper())
 
@@ -46,7 +45,6 @@ def translate_dna(seq):
         protein += amino_acid
     return protein
 
-# GUI logic
 def analyze_sequence():
     sequence = entry.get("1.0", tk.END).strip().upper()
 
@@ -67,7 +65,6 @@ RNA (Transcribed): {rna}
 Protein (Translated): {protein}
 """)
 
-# Tkinter GUI
 root = tk.Tk()
 root.title("DNA Sequence Analyzer")
 root.geometry("600x400")
