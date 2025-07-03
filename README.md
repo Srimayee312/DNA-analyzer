@@ -17,3 +17,10 @@ How to Run
 
 ```bash
 python protein sequence.py
+
+Author
+
+Srimayee  
+B.Tech Biotechnology student | Learning Python & Bioinformatics 
+-linkedin [www.linkedin.com/in/
+srimayee-ganesan-706344338]
